@@ -17,17 +17,15 @@ const Header = () => {
                         placeholder="Search"
                     />
                     <div className="flex items-center justify-center absolute inset-y-0 -left-1 pl-4 text-2xl">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i className="fa-solid fa-magnifying-glass"></i>
                     </div>
                 </div>
                 <div className="bg-green-400 flex items-center justify-center rounded-full w-12 h-12">
-                <i class="fa-regular fa-circle-user text-3xl"></i>
+                <i className="fa-regular fa-circle-user text-3xl"></i>
                 </div>
             </div>
         </div>
     );
 };
-Header.propTypes = {
 
-}
 export default Header;

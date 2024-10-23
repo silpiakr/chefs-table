@@ -1,6 +1,5 @@
-import React from 'react';
 
-const Recipes = () => {
+const OurRecipes = () => {
     return (
         <div className='text-center my-8 w-8/12 mx-auto space-y-4'>
             <h2 className='font-semibold text-5xl text-gray-800'>Our Recipes</h2>
@@ -11,4 +10,4 @@ const Recipes = () => {
     );
 }
 
-export default Recipes;
+export default OurRecipes;
